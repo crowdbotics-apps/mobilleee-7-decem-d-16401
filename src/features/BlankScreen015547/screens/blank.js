@@ -41,5 +41,15 @@ export default class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: {},
-  Image_2: { width: 100, alignSelf: "center" }
+  Image_2: {
+    width: 100,
+    alignSelf: "center",
+    borderColor: "#4b30d5",
+    borderWidth: 4,
+    borderLeftWidth: 4,
+    borderRightWidth: 4,
+    borderTopWidth: 4,
+    borderBottomWidth: 4,
+    borderRadius: 10
+  }
 })
