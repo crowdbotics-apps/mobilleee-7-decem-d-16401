@@ -1,6 +1,6 @@
 import axios from "axios"
 const webdecAPI = axios.create({
-  baseURL: "https://mobilleee-7-decem-d-16401-prod.herokuapp.com/",
+  baseURL: "https://mobilleee-7-decem-d-16401.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
