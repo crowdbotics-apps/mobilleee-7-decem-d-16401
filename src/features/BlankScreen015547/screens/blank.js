@@ -35,6 +35,9 @@ export default class Blank extends React.Component {
         }}
         style={styles.Image_2}
       />
+      <Text>Sample text content</Text>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -45,11 +48,15 @@ const styles = StyleSheet.create({
     width: 100,
     alignSelf: "center",
     borderColor: "#4b30d5",
+    borderStyle: "dotted",
     borderWidth: 4,
     borderLeftWidth: 4,
     borderRightWidth: 4,
     borderTopWidth: 4,
     borderBottomWidth: 4,
     borderRadius: 10
-  }
+  },
+  Text_3: {},
+  Button_4: {},
+  Text_5: {}
 })
